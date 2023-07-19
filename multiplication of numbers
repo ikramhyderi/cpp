@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b,multiply;
+  cout << "Enter two numbers: ";
+
+  cin >> a >> b;
+ 
+  multiply = a * b;  
+
+  cout << "answer = " << multiply;    
+    
+  return 0;
+}
